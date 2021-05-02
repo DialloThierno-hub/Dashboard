@@ -17,7 +17,7 @@ session_state = SessionState.get(imageClusters=0,figPays = 0,dfAuteurPaysCount=0
 
 
 if session_state.start ==1 : #this part is only executed when the dashboard is launched  
-    engine = create_engine('oracle://dlt1940a:Bint@Cherif96@telline.univ-tlse3.fr:1521/etupre')
+    engine = create_engine('oracle://....@telline.univ-tlse3.fr:1521/etupre')
     connection = engine.raw_connection() #establish connection with database
     # Check if account exists 
     try:
